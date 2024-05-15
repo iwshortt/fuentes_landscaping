@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- fonts ***NOTE*** reorganize fonts seperately and removes unneeded styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Pridi:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Fuentes Landscaping</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header section start -->
+        <header class="flexy-row header-style">
+            <a href="#" class="logo-link-cont">
+                <img src="img/logo-fuentes.png" class="logo-link">
+                <div class="logo-link-text-cont">
+                    <div class="logo-link-text-main">Fuentes</div>
+                    <div class="logo-text-divider"></div>
+                    <div class="logo-link-text-secondary">Landscaping</div>
+                </div>
+            </a>
+            <button class="btn-invisible btn-nav">
+                <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18">
+                    <title>minus</title>
+                    <g fill="#212121" class="nc-icon-wrapper">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="none" stroke="#f8f4e7" class="nc-icon-wrapper" d="M-3.25 3.5L17.75 3.5"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="none" stroke="#f8f4e7" class="nc-icon-wrapper" d="M3.25 9L17.75 9"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="none" stroke="#f8f4e7" class="nc-icon-wrapper" d="M-3.25 14.5L17.75 14.5"></path>
+                    </g>
+                </svg>
+            </button>
+            <nav data-visible="false" style="display: none"> <!-- 'data-visible' used to manipulate the javascript and css to show/hide nav on click -->
+                <div>
+                    <span class="menu-logo">Fuentes Landscaping</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="menu-contact">
+                    <a href="#">
+                        <div>
+                            <p>Get a Quote</p>
+                        </div>
+                    </a>
+                    <a class="instagram-logo" href="https://www.instagram.com/ajamuphoto/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 256 256">
+                            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+                                <path d="M 62.263 90 H 27.738 C 12.443 90 0 77.557 0 62.263 V 27.738 C 0 12.443 12.443 0 27.738 0 h 34.525 C 77.557 0 90 12.443 90 27.738 v 34.525 C 90 77.557 77.557 90 62.263 90 z M 27.738 7 C 16.303 7 7 16.303 7 27.738 v 34.525 C 7 73.697 16.303 83 27.738 83 h 34.525 C 73.697 83 83 73.697 83 62.263 V 27.738 C 83 16.303 73.697 7 62.263 7 H 27.738 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 45.255 70.47 c -13.904 0 -25.215 -11.312 -25.215 -25.215 S 31.352 20.04 45.255 20.04 s 25.215 11.312 25.215 25.215 S 59.159 70.47 45.255 70.47 z M 45.255 27.04 c -10.044 0 -18.215 8.171 -18.215 18.215 c 0 10.044 8.171 18.215 18.215 18.215 c 10.044 0 18.215 -8.171 18.215 -18.215 C 63.471 35.211 55.3 27.04 45.255 27.04 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <circle cx="70.557" cy="19.936999999999998" r="4.897" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <!-- header section end -->
+        <!-- main section start -->
+        <main>
+            <!-- intro section start -->
+            <section>
+                <div class="carousel-style carousel-img"></div>
+                <div class="flexy-col company-intro-cont">
+                    <h1 class="heading font-heading-italic">Fuentes Landscaping serving Westchester NY since 1991</h1>
+                    <div class="container">
+                        <a class="flexy btn-style-main font-btn" href="#">
+                            <div>
+                                <p>More About Us</p>
+                            </div>
+                        </a>
+                        <a class="flexy btn-style-main font-btn" href="#">
+                            <div>
+                                <p>Get a Free Quote</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="flexy cta-styles font-cta">
+                    <p class="cta-text-styles">We specialize in modern gardening design, covering planning, horticulture, conversion and maintenance for both private and public spaces.</p>
+                </div>
+                <div class="flexy company-secondary-cont">
+                    <p class="subheading-secondary font-heading">We provide A comprehensive concept And handle everything Seamlessly from a single source</p>
+                </div>
+            </section>
+            <!-- intro section end -->
+            <!-- who we are section start -->
+            <section>
+                <div class="carousel-style img-large carousel-img-secondary"></div>
+                <div class="flexy-wrap reviews-card-cont">
+                    <div class="flexy-col-center gap-tiny reviews-card">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18">
+                                <title>money bill coin</title>
+                                <g fill="#212121" class="nc-icon-wrapper">
+                                    <path d="M8.033,8.751c-.616-.341-1.033-.997-1.033-1.751,0-1.105,.895-2,2-2,.345,0,.67,.087,.953,.241" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <path d="M4.75,1.75c0,1.657-1.343,3-3,3" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <path d="M13.25,1.75c0,1.657,1.343,3,3,3" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <path d="M4.75,12.25c0-1.657-1.343-3-3-3" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <path d="M7.25,12.25H3.75c-1.105,0-2-.895-2-2V3.75c0-1.105,.895-2,2-2H14.25c1.105,0,2,.895,2,2v1" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <rect x="9.75" y="10.25" width="6.5" height="3" rx="1" ry="1" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></rect>
+                                    <rect x="10.75" y="7.25" width="6.5" height="3" rx="1" ry="1" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></rect>
+                                    <rect x="10.75" y="13.25" width="6.5" height="3" rx="1" ry="1" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></rect>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class="font-review-heading">The Best in Town</p>
+                        <p class="font-review-text">Fuentes Landscaping is the premier choice for exceptional landscaping services, delivering unmatched expertise and excellence.</p>
+                    </div>
+                    <div class="flexy-col-center gap-tiny reviews-card">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18">
+                                <title>subscription 2</title>
+                                <g fill="#212121" class="nc-icon-wrapper">
+                                    <path d="M1.75,9c0-4.004,3.246-7.25,7.25-7.25,3.031,0,5.627,1.86,6.71,4.5" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <polyline points="16.12 3.305 15.712 6.25 12.768 5.843" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                                    <path d="M16.25,9c0,4.004-3.246,7.25-7.25,7.25-3.031,0-5.627-1.86-6.71-4.5" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <polyline points="1.88 14.695 2.288 11.75 5.232 12.157" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                                    <path d="M10.817,6.894c-.394-.933-1.183-1.144-1.779-1.144-.554,0-2.01,.295-1.875,1.692,.094,.981,1.019,1.346,1.827,1.49s1.981,.452,2.01,1.635c.024,1-.875,1.683-1.962,1.683-1.038,0-1.76-.404-2.038-1.317" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></path>
+                                    <line x1="9" y1="4.991" x2="9" y2="5.636" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                    <line x1="9" y1="12.25" x2="9" y2="12.894" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class="font-review-heading">Affordable Pricing</p>
+                        <p class="font-review-text">Fuentes Landscaping is the premier choice for exceptional landscaping services, delivering unmatched expertise and excellence.</p>
+                    </div>
+                    <div class="flexy-col-center gap-tiny reviews-card">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18">
+                                <title>subscription 2</title>
+                                <g fill="#212121" class="nc-icon-wrapper">
+                                    <path d="M1.75,9c0-4.004,3.246-7.25,7.25-7.25,3.031,0,5.627,1.86,6.71,4.5" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <polyline points="16.12 3.305 15.712 6.25 12.768 5.843" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                                    <path d="M16.25,9c0,4.004-3.246,7.25-7.25,7.25-3.031,0-5.627-1.86-6.71-4.5" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <polyline points="1.88 14.695 2.288 11.75 5.232 12.157" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                                    <path d="M10.817,6.894c-.394-.933-1.183-1.144-1.779-1.144-.554,0-2.01,.295-1.875,1.692,.094,.981,1.019,1.346,1.827,1.49s1.981,.452,2.01,1.635c.024,1-.875,1.683-1.962,1.683-1.038,0-1.76-.404-2.038-1.317" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></path>
+                                    <line x1="9" y1="4.991" x2="9" y2="5.636" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                    <line x1="9" y1="12.25" x2="9" y2="12.894" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class="font-review-heading">High Quality Service</p>
+                        <p class="font-review-text">Fuentes Landscaping is the premier choice for exceptional landscaping services, delivering unmatched expertise and excellence.</p>
+                    </div>
+                    <div class="svg-arrow-cont">svg arrow</div>
+                </div>
+                <div class="flexy-col-center gap-med contact-card">
+                    <div class="flexy-col gap-small border-divider">
+                        <div class="visible gap-large">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 18 18">
+                                    <title>phone</title>
+                                    <g fill="#212121" class="nc-icon-wrapper">
+                                        <path d="M11.347,10.646l-1.141,1.426c-1.767-1.039-3.24-2.511-4.278-4.278l1.426-1.141c.344-.275,.459-.748,.28-1.15l-1.3-2.927c-.193-.434-.671-.664-1.13-.545l-2.475,.642c-.478,.125-.787,.588-.719,1.077,.892,6.354,5.886,11.348,12.241,12.241,.489,.067,.952-.242,1.076-.719l.642-2.475c.119-.459-.111-.936-.544-1.129l-2.927-1.3c-.402-.179-.874-.064-1.15,.279Z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="none" stroke="#f8f4e7" class="nc-icon-wrapper"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="font-contact">+1(914) 555-5555</p>
+                        </div>
+                        <div class="visible gap-large">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 18 18">
+                                    <title>alarm clock</title>
+                                    <g fill="#212121" class="nc-icon-wrapper">
+                                        <line x1="14.5" y1="1.5" x2="16.5" y2="3.5" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                        <line x1="3.5" y1="1.5" x2="1.5" y2="3.5" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                        <circle cx="9" cy="9" r="6.25" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></circle>
+                                        <line x1="4.581" y1="13.419" x2="2.75" y2="15.25" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+                                        <line x1="13.419" y1="13.419" x2="15.25" y2="15.25" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+                                        <polyline points="9 5.75 9 9 11.75 10.75" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></polyline>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="font-contact">Mon - Fri: 9:00 - 18:30</p>
+                        </div>
+                        <div class="visible gap-large">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 18 18">
+                                    <title>envelope</title>
+                                    <g fill="#212121" class="nc-icon-wrapper">
+                                        <path d="M1.75,5.75l6.767,3.733c.301,.166,.665,.166,.966,0l6.767-3.733" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></path>
+                                        <rect x="1.75" y="3.25" width="14.5" height="11.5" rx="2" ry="2" transform="translate(18 18) rotate(180)" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></rect>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="font-contact">example@fuenteslandscaping.com</p>
+                        </div>
+                    </div>
+                    <div class="visible gap-large">
+                        <div class="contact-img-cont">
+                            <img class="contact-img" src="img/facebook_2021_logo.png">
+                        </div>
+                        <div class="contact-img-cont">
+                            <img class="contact-img" src="img/instagram_logo_2022.png">
+                        </div>
+                        <div class="contact-img-cont">
+                            <img class="contact-img" src="img/linkedIn_logo.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="img-large about-img"></div>
+                <div class="flexy-col gap-med about-card">
+                    <h3 class="font-about-heading">Who We Are</h3>
+                    <p class="font-about-text">At Fuentes Landscaping, we pride ourselves on our extensive knowledge and understanding of landscaping techniques. Our team consists of skilled professionals who have honed their craft, ensuring that your outdoor space receives the highest level of care and attention to detail.</p>
+                </div>
+                <div class="about-content-divider"></div>
+                <div class="flexy-col gap-med about-card">
+                    <h3 class="font-about-heading">About Us</h3>
+                    <p class="font-about-text">Fuentes Landscaping is a trusted and experienced team of landscaping professionals, dedicated to transforming outdoor spaces into stunning Landscapes. With a passion for excellence and meticulous approach, we bring expertise, creativity, and professional attention to every project we undertake.</p>
+                </div>
+                <!-- sponsor section start -->
+                <aside class="sponsor-section-cont">
+                    <div class="flexy-col-center gap-med cta-card">
+                        <a href="#" class="logo-link-cont">
+                            <img src="img/logo-fuentes.png" class="logo-link logo-link-large">
+                            <div class="logo-link-text-cont">
+                                <div class="logo-link-text-main logo-text-main-large">Fuentes</div>
+                                <div class="logo-text-divider"></div>
+                                <div class="logo-link-text-secondary logo-text-secondary-large">Landscaping</div>
+                            </div>
+                        </a>
+                        <div class="cta-card-text-cont">
+                            <p class="font-contact">Problems with your gardening?</p>
+                            <p class="font-contact">Please call (914) 555-5555</p>
+                        </div>
+                    </div>
+                    <div class="flexy-even">
+                        <div class="flexy logo-card">
+                            <img src="img/isa_logo.png">
+                        </div>
+                        <div class="flexy logo-card">
+                            <img src="img/tcia_logo.png">
+                        </div>
+                        <div class="flexy logo-card">
+                            <img src="img/olc_logo.png">
+                        </div>
+                    </div>
+                    <div class="flexy-col-center gap-med quote-card">
+                        <div class="visible gap-med">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 18 18">
+                                    <title>check</title>
+                                    <g fill="#212121" class="nc-icon-wrapper">
+                                        <path d="M6.75,15h-.002c-.227,0-.442-.104-.583-.281L2.165,9.719c-.259-.324-.207-.795,.117-1.054,.325-.259,.796-.206,1.054,.117l3.418,4.272L14.667,3.278c.261-.322,.732-.373,1.055-.111,.322,.261,.372,.733,.111,1.055L7.333,14.722c-.143,.176-.357,.278-.583,.278Z" fill="#f8f4e7" class="nc-icon-wrapper"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="font-contact">We always put quality first</p>
+                        </div>
+                        <div class="visible gap-med">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 18 18">
+                                    <title>check</title>
+                                    <g fill="#212121" class="nc-icon-wrapper">
+                                        <path d="M6.75,15h-.002c-.227,0-.442-.104-.583-.281L2.165,9.719c-.259-.324-.207-.795,.117-1.054,.325-.259,.796-.206,1.054,.117l3.418,4.272L14.667,3.278c.261-.322,.732-.373,1.055-.111,.322,.261,.372,.733,.111,1.055L7.333,14.722c-.143,.176-.357,.278-.583,.278Z" fill="#f8f4e7" class="nc-icon-wrapper"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="font-contact">We always put quality first</p>
+                        </div>
+                        <div class="visible gap-med">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 18 18">
+                                    <title>check</title>
+                                    <g fill="#212121" class="nc-icon-wrapper">
+                                        <path d="M6.75,15h-.002c-.227,0-.442-.104-.583-.281L2.165,9.719c-.259-.324-.207-.795,.117-1.054,.325-.259,.796-.206,1.054,.117l3.418,4.272L14.667,3.278c.261-.322,.732-.373,1.055-.111,.322,.261,.372,.733,.111,1.055L7.333,14.722c-.143,.176-.357,.278-.583,.278Z" fill="#f8f4e7" class="nc-icon-wrapper"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="font-contact">We always put quality first</p>
+                        </div>
+                        <a href="#" class="flexy btn-main">
+                            <div>
+                                <p class="font-btn">Get a Quote</p>
+                            </div>
+                        </a>
+                    </div>
+                </aside>
+                <!-- sponsor section end -->
+            </section>
+            <!-- who we are section end -->
+            <!-- our services section start -->
+            <section>
+                <h2 class="heading text-center">Our Services</h2>
+                <div class="flexy cta-styles">
+                    <p class="cta-text-styles font-cta">We will help you create the outdoor space you’ve been dreaming of. Whether your are just looking for some small maintenance or larger projects, we will do it with care.</p>
+                </div>
+                <div class="flexy-col product-styles">
+                    <div class="product-img-cont product-img-1"></div>
+                    <div class="product-text-cont">
+                        <h3 class="product-text-heading">Lawncare</h3>
+                        <p class="product-text-subheading">Find the right solution for your Lawncare needs.</p>
+                        <p class="product-text-main">Spring is the time when the world wakes up from its’ cold slumber. Your yard or grounds will always show the inevitable winter damage. There are several things that should be done to help recover from the winter and get ready for a full, healthy growing season.</p>
+                    </div>
+                </div>
+                <div class="flexy-col product-styles">
+                    <div class="product-img-cont product-img-2"></div>
+                    <div class="product-text-cont">
+                        <h3 class="product-text-heading">Lawncare</h3>
+                        <p class="product-text-subheading">Find the right solution for your Lawncare needs.</p>
+                        <p class="product-text-main">Spring is the time when the world wakes up from its’ cold slumber. Your yard or grounds will always show the inevitable winter damage. There are several things that should be done to help recover from the winter and get ready for a full, healthy growing season.</p>
+                    </div>
+                </div>
+                <div class="flexy-col product-styles">
+                    <div class="product-img-cont product-img-3"></div>
+                    <div class="product-text-cont">
+                        <h3 class="product-text-heading">Lawncare</h3>
+                        <p class="product-text-subheading">Find the right solution for your Lawncare needs.</p>
+                        <p class="product-text-main">Spring is the time when the world wakes up from its’ cold slumber. Your yard or grounds will always show the inevitable winter damage. There are several things that should be done to help recover from the winter and get ready for a full, healthy growing season.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- our services section end -->
+            <!-- testimonial section start -->
+            <section class="testimonial-section">
+                <h2 class="heading text-center">Testimonials</h2>
+                <div class="customer-reviews-cont">
+                    <div class="testimonial-cont customer-reviews-odd">
+                        <img src="img/icon-user.png" class="testimonial-user-img">
+                        <div class="testimonial-text-cont font-testimonial">
+                            <p class="font-testimonial-comment">With a commitment to excellence, Fuentes Landscaping provies Top-notch service, utlizing industry leading.</p>
+                            <div class="testimonial-divider-cont">
+                                <p class="testimonial-divider-mark">"</p>
+                                <div class="testimonial-divider"></div>
+                            </div>
+                            <div>
+                                <p>Mike Dow</p>
+                                <div class="visible">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p>High Quality Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-cont customer-reviews-even">
+                        <img src="img/icon-user.png" class="testimonial-user-img">
+                        <div class="testimonial-text-cont font-testimonial">
+                            <p class="font-testimonial-comment">With a commitment to excellence, Fuentes Landscaping provies Top-notch service, utlizing industry leading.</p>
+                            <div class="testimonial-divider-cont">
+                                <p class="testimonial-divider-mark">"</p>
+                                <div class="testimonial-divider"></div>
+                            </div>
+                            <div>
+                                <p>Mike Dow</p>
+                                <div class="visible">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p>High Quality Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-cont customer-reviews-odd">
+                        <img src="img/icon-user.png" class="testimonial-user-img">
+                        <div class="testimonial-text-cont font-testimonial">
+                            <p class="font-testimonial-comment">With a commitment to excellence, Fuentes Landscaping provies Top-notch service, utlizing industry leading.</p>
+                            <div class="testimonial-divider-cont">
+                                <p class="testimonial-divider-mark">"</p>
+                                <div class="testimonial-divider"></div>
+                            </div>
+                            <div>
+                                <p>Mike Dow</p>
+                                <div class="visible">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 12 12">
+                                            <title>star small</title>
+                                            <g fill="#212121" class="nc-icon-wrapper">
+                                                <path d="M11.37 4.55a0.5 0.5 0 0 0-0.41-0.35l-3.1-0.44-1.38-2.81c-0.17-0.34-0.73-0.34-0.9 0l-1.39 2.8-3.09 0.45a0.5 0.5 0 0 0-0.28 0.86l2.24 2.18-0.53 3.09a0.5 0.5 0 0 0 0.73 0.53l2.77-1.46 2.77 1.46a0.5 0.5 0 0 0 0.53-0.04 0.5 0.5 0 0 0 0.2-0.49l-0.53-3.09 2.24-2.18a0.5 0.5 0 0 0 0.12-0.51z" fill="#212121" class="nc-icon-wrapper"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p>High Quality Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="text-center">
+                        <div>
+                            <p class="font-style-main">View More</p>
+                            <svg class="svg-arrow" xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18" style="transform: rotate(180deg)">
+                                <title>chevron up</title>
+                                <g fill="#212121" class="nc-icon-wrapper">
+                                    <polyline points="2.75 11.5 9 5.25 15.25 11.5" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <!-- testimonial section end -->
+            <!-- best work section start -->
+            <section>
+                <div class="gallery-text-cont text-center">
+                    <h3 class="font-about-heading">Our Best Work</h3>
+                    <p class="font-text-medium">Our work speaks for itself. Get your landscaping job done right and on time.</p>
+                </div>
+                <div class="gallery-img-cont">
+                    <div>
+                        <img src="img/landscaping_carousel_4.webp" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/landscaping_carousel_5.webp" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/landscaping_carousel_6.webp" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/landscaping_carousel_7.webp" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/landscaping_carousel_8.webp" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/landscaping_carousel_9.webp" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/landscaping_carousel_10.webp" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/landscaping_carousel_11.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/landscaping_carousel_12.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_2.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_3.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_4.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_5.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_6.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_7.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_8.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_9.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_10.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_11.jpeg" class="gallery-img">
+                    </div>
+                    <div>
+                        <img src="img/snow_carousel_12.jpeg" class="gallery-img">
+                    </div>
+                </div>
+                <a href="#" class="text-center">
+                    <div>
+                        <p class="font-style-main">View More</p>
+                        <svg class="svg-arrow" xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18" style="transform: rotate(180deg)">
+                            <title>chevron up</title>
+                            <g fill="#212121" class="nc-icon-wrapper">
+                                <polyline points="2.75 11.5 9 5.25 15.25 11.5" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                            </g>
+                        </svg>
+                    </div>
+                </a>
+            </section>
+            <!-- best work section end -->
+            <!-- contact section start -->
+            <section class="contact-form-section">
+                <div class="gallery-text-cont text-center">
+                    <h3 class="font-about-heading">Our Best Work</h3>
+                    <p class="font-text-medium">Our work speaks for itself. Get your landscaping job done right and on time.</p>
+                </div>
+                <form class="contact-form-styles">
+                    <legend>Schedule Your Lawn Care Service</legend>
+                    <fieldset class="contact-form-cont">
+                        <div>
+                            <label class="hidden" for="name">Name</label>
+                            <input class="contact-form-input" type="text" id="name" name="user_name" placeholder="Name" required>
+                        </div>
+                        <div>
+                            <label class="hidden" for="email">Email</label>
+                            <input class="contact-form-input" type="email" id="email" name="user_email" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <label class="hidden" for="message">Message</label>
+                            <textarea class="contact-form-textarea" id="message" name="user_message" placeholder="Message"></textarea>
+                        </div>
+                        <div>
+                            <select class="contact-form-input" name="services" id="user_services">
+                                <option value="">Select a Service</option>
+                                <option value="lawncare">Lawncare</option>
+                                <option value="lawncare">Lawncare</option>
+                                <option value="lawncare">Lawncare</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <button class="contact-form-btn font-btn" type="submit">Get a Free Quote</button>
+                    </fieldset>
+                </form>
+                <div class="form-contact-card">
+                    <div class="form-contact">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18">
+                                <title>location</title>
+                                <g class="nc-icon-wrapper" fill="none" stroke="#f8f4e7" stroke-width="1.5">
+                                    <circle cx="9" cy="5" r="3.25" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 13.25L9 8.25"></path>
+                                    <path d="M12,12.429c2.507,.315,4.25,1.012,4.25,1.821,0,1.105-3.246,2-7.25,2s-7.25-.895-7.25-2c0-.809,1.743-1.507,4.25-1.821" stroke-linecap="round" stroke-linejoin="round" stroke="#f8f4e7"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class="font-contact-secondary">123 Main St. Dobbs Ferry, NY 10522</p>
+                    </div>
+                </div>
+                <div class="map-cont"></div>
+            </section>
+            <!-- contact section end -->
+            <!-- footer section start -->
+            <section>
+                <div class="flexy company-secondary-cont">
+                    <p class="subheading-secondary font-heading">We provide A comprehensive concept And handle eveything Seamlessly from a single source</p>
+                </div>
+                <div class="carousel-style footer-img"></div>
+                <div class="flexy-wrap reviews-card-cont">
+                    <div class="flexy-col-center gap-small reviews-card">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18">
+                                <title>money bill coin</title>
+                                <g fill="#212121" class="nc-icon-wrapper">
+                                    <path d="M8.033,8.751c-.616-.341-1.033-.997-1.033-1.751,0-1.105,.895-2,2-2,.345,0,.67,.087,.953,.241" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <path d="M4.75,1.75c0,1.657-1.343,3-3,3" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <path d="M13.25,1.75c0,1.657,1.343,3,3,3" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <path d="M4.75,12.25c0-1.657-1.343-3-3-3" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <path d="M7.25,12.25H3.75c-1.105,0-2-.895-2-2V3.75c0-1.105,.895-2,2-2H14.25c1.105,0,2,.895,2,2v1" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <rect x="9.75" y="10.25" width="6.5" height="3" rx="1" ry="1" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></rect>
+                                    <rect x="10.75" y="7.25" width="6.5" height="3" rx="1" ry="1" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></rect>
+                                    <rect x="10.75" y="13.25" width="6.5" height="3" rx="1" ry="1" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></rect>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class="font-review-heading">The Best in Town</p>
+                        <p class="font-review-text">Fuentes Landscaping is the premier choice for exceptional landscaping services, delivering unmatched expertise and excellence.</p>
+                    </div>
+                    <div class="flexy-col-center gap-small reviews-card">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18">
+                                <title>subscription 2</title>
+                                <g fill="#212121" class="nc-icon-wrapper">
+                                    <path d="M1.75,9c0-4.004,3.246-7.25,7.25-7.25,3.031,0,5.627,1.86,6.71,4.5" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <polyline points="16.12 3.305 15.712 6.25 12.768 5.843" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                                    <path d="M16.25,9c0,4.004-3.246,7.25-7.25,7.25-3.031,0-5.627-1.86-6.71-4.5" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <polyline points="1.88 14.695 2.288 11.75 5.232 12.157" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                                    <path d="M10.817,6.894c-.394-.933-1.183-1.144-1.779-1.144-.554,0-2.01,.295-1.875,1.692,.094,.981,1.019,1.346,1.827,1.49s1.981,.452,2.01,1.635c.024,1-.875,1.683-1.962,1.683-1.038,0-1.76-.404-2.038-1.317" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></path>
+                                    <line x1="9" y1="4.991" x2="9" y2="5.636" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                    <line x1="9" y1="12.25" x2="9" y2="12.894" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class="font-review-heading">Affordable Pricing</p>
+                        <p class="font-review-text">Fuentes Landscaping is the premier choice for exceptional landscaping services, delivering unmatched expertise and excellence.</p>
+                    </div>
+                    <div class="flexy-col-center gap-small reviews-card">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 18 18">
+                                <title>subscription 2</title>
+                                <g fill="#212121" class="nc-icon-wrapper">
+                                    <path d="M1.75,9c0-4.004,3.246-7.25,7.25-7.25,3.031,0,5.627,1.86,6.71,4.5" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <polyline points="16.12 3.305 15.712 6.25 12.768 5.843" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                                    <path d="M16.25,9c0,4.004-3.246,7.25-7.25,7.25-3.031,0-5.627-1.86-6.71-4.5" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                    <polyline points="1.88 14.695 2.288 11.75 5.232 12.157" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></polyline>
+                                    <path d="M10.817,6.894c-.394-.933-1.183-1.144-1.779-1.144-.554,0-2.01,.295-1.875,1.692,.094,.981,1.019,1.346,1.827,1.49s1.981,.452,2.01,1.635c.024,1-.875,1.683-1.962,1.683-1.038,0-1.76-.404-2.038-1.317" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></path>
+                                    <line x1="9" y1="4.991" x2="9" y2="5.636" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                    <line x1="9" y1="12.25" x2="9" y2="12.894" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class="font-review-heading">High Quality Service</p>
+                        <p class="font-review-text">Fuentes Landscaping is the premier choice for exceptional landscaping services, delivering unmatched expertise and excellence.</p>
+                    </div>
+                    <div class="svg-arrow-cont">svg arrow</div>
+                </div>
+                <div class="flexy-col-center gap-med contact-card">
+                    <div class="flexy-col gap-small border-divider">
+                        <div class="visible gap-large">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 18 18">
+                                    <title>phone</title>
+                                    <g fill="#212121" class="nc-icon-wrapper">
+                                        <path d="M11.347,10.646l-1.141,1.426c-1.767-1.039-3.24-2.511-4.278-4.278l1.426-1.141c.344-.275,.459-.748,.28-1.15l-1.3-2.927c-.193-.434-.671-.664-1.13-.545l-2.475,.642c-.478,.125-.787,.588-.719,1.077,.892,6.354,5.886,11.348,12.241,12.241,.489,.067,.952-.242,1.076-.719l.642-2.475c.119-.459-.111-.936-.544-1.129l-2.927-1.3c-.402-.179-.874-.064-1.15,.279Z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="none" stroke="#f8f4e7" class="nc-icon-wrapper"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="font-contact">+1(914) 555-5555</p>
+                        </div>
+                        <div class="visible gap-large">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 18 18">
+                                    <title>alarm clock</title>
+                                    <g fill="#212121" class="nc-icon-wrapper">
+                                        <line x1="14.5" y1="1.5" x2="16.5" y2="3.5" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                        <line x1="3.5" y1="1.5" x2="1.5" y2="3.5" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></line>
+                                        <circle cx="9" cy="9" r="6.25" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></circle>
+                                        <line x1="4.581" y1="13.419" x2="2.75" y2="15.25" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+                                        <line x1="13.419" y1="13.419" x2="15.25" y2="15.25" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+                                        <polyline points="9 5.75 9 9 11.75 10.75" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></polyline>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="font-contact">Mon - Fri: 9:00 - 18:30</p>
+                        </div>
+                        <div class="visible gap-large">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 18 18">
+                                    <title>envelope</title>
+                                    <g fill="#212121" class="nc-icon-wrapper">
+                                        <path d="M1.75,5.75l6.767,3.733c.301,.166,.665,.166,.966,0l6.767-3.733" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" data-color="color-2"></path>
+                                        <rect x="1.75" y="3.25" width="14.5" height="11.5" rx="2" ry="2" transform="translate(18 18) rotate(180)" fill="none" stroke="#f8f4e7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></rect>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p class="font-contact">example@fuenteslandscaping.com</p>
+                        </div>
+                    </div>
+                    <div class="visible gap-large">
+                        <div class="contact-img-cont">
+                            <img class="contact-img" src="img/facebook_2021_logo.png">
+                        </div>
+                        <div class="contact-img-cont">
+                            <img class="contact-img" src="img/instagram_logo_2022.png">
+                        </div>
+                        <div class="contact-img-cont">
+                            <img class="contact-img" src="img/linkedIn_logo.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- footer section end -->
+        </main>
+        <!-- main section end -->
+    </div>
+</body>
+</html>
